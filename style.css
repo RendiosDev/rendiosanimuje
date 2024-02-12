@@ -1,0 +1,135 @@
+body {
+    font-family: monospace;
+    font-size: larger;
+    height: 1000px;
+    background-color: #160d37;
+    text-align: center;
+    color: azure;
+}
+article {
+    border: 2px solid #c7c7c7 ;
+    padding: 50px;
+    margin: 20px;
+    max-width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo-image {
+    float: none;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid rgb(114, 8, 8);
+    display: inline-block;
+}
+header {
+    background-color: #070018; /* Farba pozadia pre hornú lištu */
+    padding: 10px 0; /* Odsadenie vrchu a spodku */
+}
+
+nav ul {
+    list-style-type: none; /* Zrušiť odrážky */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Zarovnanie položiek vedľa seba */
+    margin-right: 20px; /* Odsadenie medzi položkami */
+}
+
+nav ul li a {
+    color: #fff; /* Farba textu */
+    text-decoration: none; /* Odstrániť podčiarknutie odkazov */
+    font-weight: bold; /* Tučné písmo */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Podčiarknutie odkazu po najazdení myšou */
+}
+.image-container img {
+    transition: transform 0.3s ease; /* Plynulý prechod */
+}
+
+.image-container img:hover {
+    transform: scale(0.9); /* Zmení veľkosť obrázka na 90% pôvodnej veľkosti */
+}
+.first-title {
+    margin: 30px;
+}
+a {
+    color: rgb(203, 253, 253);
+    font-style: italic;
+}
+article {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    width: 80%;
+    max-width: max-content;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h3 {
+    color: cadetblue;
+    font-style: oblique;
+}
+.video {
+    border: 3 solid #3700ff;
+    overflow: hidden;
+    display: inline-block;
+}
+.social-media-discord {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: #434aae solid 5px;
+    transition: transform 0.3s ease;
+}
+.social-media-discord:hover {
+    transform: scale(0.9);
+}
+
+.social-media-instagram {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: #4a459b solid 5px;
+    transition: transform 0.3s ease;
+}
+.social-media-instagram:hover {
+    transform: scale(0.9);
+}
+
+.social-media-reddit {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: #c03300 solid 5px;
+    transition: transform 0.3s ease;
+}
+.social-media-reddit:hover {
+    transform: scale(0.9);
+}
+
+.social-media-tiktok {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: #040050 solid 5px;
+    transition: transform 0.3s ease;
+}
+.social-media-tiktok:hover {
+    transform: scale(0.9);
+}
+
+.social-media-roblox {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: #4a459b solid 5px;
+    transition: transform 0.3s ease;
+}
+.social-media-roblox:hover {
+    transform: scale(0.9);
+}
